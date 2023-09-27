@@ -13,11 +13,11 @@
 		<div class="max-w-md mx-auto p-4">
 			<h1 class="text-2xl font-bold mb-4">To-Do List</h1>
 			<div class="flex space-x-2">
-				<input type="text" id="Task" placeholder="Add new task." class="border rounded-l px-2 py-1 flex-1" />
-				<button onClick="addTask()" class="bg-blue-500 text-white px-2 py-1 rounded-r">Add Task</button>
+				<input type="text" id="Task" placeholder="Add new task." class="border rounded-l px-2 py-1 flex-1 shadow-md cursor-text" />
+				<button onClick="addTask()" class="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-r shadow-md accent-pink-500">Add Task</button>
 			</div>
 			<ul id="taskList" class="mt-4 space-y-2"></ul>
-			<button onClick="clearAll()" class="bg-red-500 text-white px-2 py-1 mt-4">Clear Tasks</button>
+			<button onClick="clearAll()" class="bg-red-500 hover:bg-red-600 text-white px-2 py-1 mt-4 shadow-md">Clear Tasks</button>
 		</div>
 
 		<script src="func.js"></script>
